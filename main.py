@@ -14,11 +14,11 @@ def browseFiles():
 
 def movefile():
     if filename == "":
-        tkinter.messagebox.showerror("Open YT Tool", "No Folder Selected!")
+        tkinter.messagebox.showerror("MC World Tool", "No Folder Selected!")
     else:
         shutil.move(filename, mcfile)
         print(mcfile)
-        tkinter.messagebox.showinfo("Open YT Tool", "Map Moved Successfully!")
+        tkinter.messagebox.showinfo("MC World Tool", "Map Moved Successfully!")
 
 
 root = Tk()
